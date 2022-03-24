@@ -7,7 +7,7 @@ public class Mini_Assignment3 {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\manjpr\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-       /* driver.get("https://the-internet.herokuapp.com/");
+        driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li[22]/a")).click();
         driver.findElement(By.xpath("//*[@id=\"content\"]/div/ul/li[1]/a")).click();
@@ -29,7 +29,7 @@ public class Mini_Assignment3 {
         driver.switchTo().alert().accept();
         String str=driver.findElement(By.id("result")).getText();
         if(str.contains("Test"))
-            System.out.println("same"); */
+            System.out.println("same"); 
         driver.get("https://www.goibibo.com/");
         driver.manage().window().maximize();
         By sel = By.xpath("/html/body/div[1]/div/div[2]/div[2]/div/ul/li[2]/span[2]");
