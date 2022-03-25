@@ -14,11 +14,9 @@ public class generic {
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
     }
-
-  /*  @AfterMethod
+    @AfterMethod
     public void CloseBrowser(){
 
         driver.quit();
-    }*/
-
+    }
 }
